@@ -407,14 +407,6 @@ h2 .link:hover:after {
     justify-content: center;
   }
 
-  #cont {
-    width: fit-content;
-    border-radius: 15px;
-    border: 1px solid lightseagreen;
-    padding: 2vw 3vw;
-    text-align: center;
-  }
-
   #herofooter {
     padding: 20px 20px;
   }
@@ -475,4 +467,13 @@ h2 .link:hover:after {
     transition: all 0.3s ease-in-out;
     font-weight: 700;
   }
+}
+
+.skills {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills .text {
+  color: lightseagreen;
 }
