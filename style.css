@@ -89,6 +89,11 @@ body::-webkit-scrollbar {
   color: lightseagreen;
 }
 
+#skills {
+  text-align: center;
+  font-size: 2vw;
+}
+
 #text-box {
   margin-top: 7vw;
   width: fit-content;
@@ -277,6 +282,7 @@ h2 .link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 /* Media Queries */
 
 @media (width<780px) {
@@ -366,6 +372,11 @@ h2 .link:hover:after {
     background-color: #fff;
     color: #000;
     transition: all 0.3s ease-in-out;
+  }
+
+  #skills {
+    text-align: center;
+    font-size: 2.5vw;
   }
 }
 
@@ -467,13 +478,4 @@ h2 .link:hover:after {
     transition: all 0.3s ease-in-out;
     font-weight: 700;
   }
-}
-
-.skills {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.skills .text {
-  color: lightseagreen;
 }
